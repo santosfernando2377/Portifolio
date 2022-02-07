@@ -1,0 +1,2 @@
+ScrollReveal();
+ScrollReveal().reveal('.container');

@@ -45,6 +45,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 400px;
+    margin: 30px 0px;
 }
 .sobre .descricao {
     display: block;

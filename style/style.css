@@ -147,7 +147,7 @@ body::-webkit-scrollbar-thumb {
         margin-bottom: 20px;
     }
     .card {
-        margin: 10px 5px;
+        margin: 10px 5px !important;
     }
 }
 
@@ -168,6 +168,7 @@ body::-webkit-scrollbar-thumb {
 .card {
     background-color: var(--azul-escuro) !important;
     border-color: var(--azul-escuro) !important;
+    margin: 10px 5px !important;
 }
 * {
     margin: 0;
@@ -281,12 +282,12 @@ body::-webkit-scrollbar {
     width: 12px;
 }
 body::-webkit-scrollbar-track {
-    background: var(--branco);
+    background: var(--azul-escuro);
 }
 body::-webkit-scrollbar-thumb {
     background-color: var(--preto);
     border-radius: 20px;
-    border: 2px solid var(--branco);
+    border: 2px solid var(--azul);
 }
 
 @media screen and (max-width: 1000px) {
@@ -311,9 +312,7 @@ body::-webkit-scrollbar-thumb {
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    .card {
-        margin: 10px 5px;
-    }
+    
 }
 
     

@@ -1,17 +1,12 @@
-let elemento = document.querySelector('#repo')
-let repos = document.querySelector('#repos')
+async function exibirAno(){
+    let Ano = await Data()
+    document.getElementById('Ano').innerText = `© ${Ano} FHD Dev, Inc`
+}
 
-fetch('https://api.github.com/users/santosfernando2377/repos')
-.then((response) => response.json())
-.then((response) =>{
-    arr = response
-    console.log(arr)
-    arr.map((dados1) => {
-        //console.log(dados1.id)
-    })
-})
-.catch((response) =>{
-    console.log(response)
-})
+function Data() {
+   let Data = new Date()
+   let Ano = Data.getFullYear()
+   return Ano
+}
 
-let arr = []
+exibirAno()
